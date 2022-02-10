@@ -1,9 +1,23 @@
-# ksuid-generator Project
+# ksuid-generator
 Генератор K-sortable идентификаторов
 
-[краткая история uuid](https://segment.com/blog/a-brief-history-of-the-uuid/)
+## Для чего?
+
+1. мы хотим глобально уникальные ид
+ 
+2. мы хотим упорядоченный индекс
+
+3. еще мы хотим избавиться от `-` т.к. этот знак не годится для использования в ltree
 
 Непосредственно для генерации ksuid использовалась [библиотека](https://github.com/ksuid/ksuid)
+
+## Как использовать сервис?
+
+сделать HTTP GET запрос на адрес `https://servername/id`
+
+Пример использования из java 
+
+[краткая история uuid](https://segment.com/blog/a-brief-history-of-the-uuid/)
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
