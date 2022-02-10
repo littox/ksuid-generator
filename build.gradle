@@ -20,7 +20,7 @@ dependencies {
     implementation 'io.quarkus:quarkus-arc'
 
     testImplementation 'io.quarkus:quarkus-junit5'
-    testImplementation "io.rest-assured:rest-assured:${restAssuredVersion}" // 4.5.0
+    testImplementation "io.rest-assured:rest-assured:${restAssuredVersion}"
 }
 
 group 'org.sbereducation'
